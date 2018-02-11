@@ -1,0 +1,49 @@
+.background {
+  background-image: url("../media/back3.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  /*max-width: 100%;*/
+}
+
+.main-content-text {
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+  align-self: center;
+  line-height: 1.5em;
+  padding: 150px 0;
+}
+
+.left {
+  padding: 30px 35px;
+}
+
+.middle {
+  display: flex;
+  text-align: center;
+}
+
+.image {
+  height: 70px;
+  width: 70p;
+  align-self: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.right small {
+  align-self: center;
+  line-height: 35px;
+}
+
+.right a {
+  text-decoration: none;
+  color: black;
+}
